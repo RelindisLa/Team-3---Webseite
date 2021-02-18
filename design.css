@@ -1,0 +1,52 @@
+      body   {background-color:#456268;
+              font-family: sans-serif;
+              Helvetica;
+              text-align:left      
+             }
+      p.herv {font-style:normal;
+              color:#fcf8ec;
+	      text-align:center;
+	      font-style:italic;
+	     }
+      p	     {font-style:normal;
+	      color:#fcf8ec;
+	     }
+      p.1    {font-style:normal;
+	      color:#fcf8ec;
+              column-size: 2;
+              padding: 30px;
+	     }
+      .grid-container {
+              display: grid;
+              grid-template-columns: 2fr 1fr;
+              grid-gap: 20px;
+             }
+      h1     {color:#d0e8f2;
+	      font-size: 24px;
+	      letter-spacing: 3px;
+              text-align:center;
+	     }
+      h2     {color:#afd8e9;
+              font-size: 20px;
+              letter-spacing: 3px;
+              text-align:center;
+	     }
+      h3     {color:#87c4de5;
+             font-size: 16px;
+             letter-spacing: 3px;
+             text-align:center;
+	     }
+      footer{font-style:normal;
+              color:#fcf8ec;
+	     font-size: 9px;
+	    }      
+     .column{color:#fcf8ec;
+             float: left;
+             width: 33.33%;
+            }
+     .row:after {
+             content: "";
+             display: table;
+             clear: both;
+            }
+
