@@ -17,9 +17,6 @@
       p	     {font-style:normal;
 	      color:#fcf8ec;
 	     }
-      ol     {color:#fcf8ec;
-              font-size: 11px;
- 	     }
       h1     {color:#d0e8f2;
 	      font-size: 24px;
 	      letter-spacing: 3px;
@@ -39,6 +36,15 @@
               color:#fcf8ec;
 	     font-size: 9px;
 	    }      
+     .column{color:#fcf8ec;
+             float: left;
+             width: 33.33%;
+            }
+     .row:after {
+             content: "";
+             display: table;
+             clear: both;
+            }
      </style>
   </head>
  
@@ -57,7 +63,25 @@
 	beschäftigen wir uns mit Messtechnik. Die besten Messgeräte
 	kommen von uns.</p>
     <h2>Unser Bestseller</h2>
-      <ol>... </ol>
+	<div class="row">
+          <div class="column">TEMPERATURFÜHLER
+            <br>
+	    <img src="https://media.visaya.solutions/media/catalog/product/cache/4db0b76e08fec5bbaf32f08825391b25/t/e/temperaturfuehler-anschlusskopf-einschraubfuehler-typ-k-ma1k620_0100-21_1.jpg"
+	     width="40px" height="40px">
+	  </div>
+          <div class="column">ABSTANDSLESER
+            <br>
+            <img src="https://mk0sensorpartneuooa8.kinstacdn.com/wp-content/uploads/2020/03/lam301-witje.jpg"
+            width="40px" height="40px">
+	    </div>
+          <div class="column">RAUCHGASFÜHLER
+	    <br>
+            <img src="https://www.pollin.de/images/1600x1200x90/I180035.1-Rauchgasfuehler-mit-Sensor-PT1000-400-C.jpg"
+	     width="40px" height="40px">
+	  </div>
+        </div>
+    <p class="herv">Klicken Sie <a href="http://zam.chrishofer.net/~relindis/web3/Team-3---Produktseite/">hier</a>,
+      um mehr zu erfahren!</h3>
     <h2>Kontaktdaten</h2>
       <p class="herv">PreMeTec GmbH</p>
       <p class="herv">Technikland</p>
