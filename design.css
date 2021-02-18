@@ -10,17 +10,11 @@
 	     }
       p	     {font-style:normal;
 	      color:#fcf8ec;
+	      text-align: justify;
 	     }
-      p.1    {font-style:normal;
-	      color:#fcf8ec;
-              column-size: 2;
-              padding: 30px;
-	     }
-      .grid-container {
-              display: grid;
-              grid-template-columns: 2fr 1fr;
-              grid-gap: 20px;
-             }
+      {
+        box-sizing: border-box;
+      }
       h1     {color:#d0e8f2;
 	      font-size: 24px;
 	      letter-spacing: 3px;
@@ -38,15 +32,23 @@
 	     }
       footer{font-style:normal;
               color:#fcf8ec;
-	     font-size: 9px;
+	     font-size: 10px;
 	    }      
      .column{color:#fcf8ec;
              float: left;
-             width: 33.33%;
-            }
+             width: 30%;
+             padding: 20px;
+             }
      .row:after {
              content: "";
              display: table;
              clear: both;
             }
+      #blackRow {
+	     margin: 0;
+	     padding: 0;
+	     height: 20px;
+	     background-color: #a6a6a6
+             }
+
 
