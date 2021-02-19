@@ -1,4 +1,4 @@
-      body   {background-color:#456268;
+      body   {background-color:#293a3d;
               font-family: sans-serif;
               Helvetica;
               text-align:left      
@@ -12,6 +12,15 @@
 	      color:#fcf8ec;
 	      text-align: justify;
 	     }
+      a      {
+              text-decoration-color:#d0e8f2;
+             }
+      a:link {
+              color:#d0e8f2;
+	     }
+      a:hover{
+              color:#9bcee4;
+             }
       {
         box-sizing: border-box;
       }
